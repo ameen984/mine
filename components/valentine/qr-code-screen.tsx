@@ -110,17 +110,7 @@ export function QRCodeScreen({ onNavigate }: QRCodeScreenProps) {
         Scan the QR code to listen to our song
       </p>
       
-      {/* Fallback Link for Localhost/Testing */}
-      {songUrl && (
-        <a 
-          href={songUrl} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-[#E84057] underline font-handwritten text-xl hover:text-foreground transition-colors mb-8"
-        >
-          Click here to open link directly
-        </a>
-      )}
+
 
       {/* Record player */}
       <div className="absolute bottom-20 left-6 md:bottom-16 md:left-8 animate-float">
